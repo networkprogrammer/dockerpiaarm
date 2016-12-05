@@ -15,4 +15,4 @@ docker run -itd --privileged --name=pia -e USER=piausername -e PASS=piapwd -p 80
 
 -v /home/$USER/torrent/:/root/.local/share/data/qBittorrent \
 
-openvpn
+--restart=always openvpn
