@@ -1,5 +1,6 @@
 #!/bin/bash
 ip route add 192.168.1.0/24 via 172.17.0.1 dev eth0 
+cp /root/qBittorrent.conf /root/.conf/qBittorrent/qBittorrent.conf
 echo $USER > /root/login.txt
 echo -n $PASS >> /root/login.txt
 /root/qbstart &

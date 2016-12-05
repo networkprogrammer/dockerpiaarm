@@ -10,5 +10,6 @@ RUN chmod +x /root/script
 VOLUME /root/.config/qBittorrent
 VOLUME /root/Downloads
 VOLUME /root/.local/share/data/qBittorrent
+COPY qBittorrent.conf /root/qBittorrent.conf
 EXPOSE 8080
 CMD /root/script
