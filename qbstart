@@ -1,3 +1,4 @@
 #!/bin/bash
 sleep 20
+cp /root/qBittorrent.conf /root/.config/qBittorrent/qBittorrent.conf
 qbittorrent-nox -d
